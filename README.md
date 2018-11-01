@@ -7,6 +7,11 @@
 
 ## Ethereum Go (Ethereum Classic Blockchain)
 
+!CHANGED NOTICE:
+!This copy of code is changed in package path due to build issue;
+!No intention for violation any original license;
+!If any of my activity is wrong, tell me and I'll stop and delete this repo;
+
 Official Go language implementation of the Ethereum protocol supporting the
 _original_ chain. Ethereum Classic (ETC) offers a censorship-resistant and powerful application platform for developers in parallel to Ethereum (ETHF), while differentially rejecting the DAO bailout.
 
