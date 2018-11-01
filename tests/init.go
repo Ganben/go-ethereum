@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereumproject/go-ethereum/core"
+	"github.com/ganben/go-ethereum/core"
 )
 
 var (

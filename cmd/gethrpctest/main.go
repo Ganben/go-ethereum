@@ -27,21 +27,21 @@ import (
 
 	"path/filepath"
 
-	"github.com/ethereumproject/go-ethereum/accounts"
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/crypto"
-	"github.com/ethereumproject/go-ethereum/eth"
-	"github.com/ethereumproject/go-ethereum/ethdb"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/node"
-	"github.com/ethereumproject/go-ethereum/tests"
-	"github.com/ethereumproject/go-ethereum/whisper"
+	"github.com/ganben/go-ethereum/accounts"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core"
+	"github.com/ganben/go-ethereum/crypto"
+	"github.com/ganben/go-ethereum/eth"
+	"github.com/ganben/go-ethereum/ethdb"
+	"github.com/ganben/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/node"
+	"github.com/ganben/go-ethereum/tests"
+	"github.com/ganben/go-ethereum/whisper"
 )
 
 // Version is the application revision identifier. It can be set with the linker
 // as in: go build -ldflags "-X main.Version="`git describe --tags`
-var Version = "unknown"
+var Version = "g0.9"
 
 var (
 	testFile    = flag.String("json", "", "Path to the .json test file to load")

@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/metrics"
-	"github.com/ethereumproject/go-ethereum/rlp"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core/types"
+	"github.com/ganben/go-ethereum/logger"
+	"github.com/ganben/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/metrics"
+	"github.com/ganben/go-ethereum/rlp"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

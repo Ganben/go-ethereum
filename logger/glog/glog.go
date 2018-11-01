@@ -121,7 +121,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/common"
+	"github.com/ganben/go-ethereum/common"
 	"github.com/fatih/color"
 )
 
@@ -227,7 +227,7 @@ var severityName = []string{
 // these path prefixes are trimmed for display, but not when
 // matching vmodule filters.
 var trimPrefixes = []string{
-	"/github.com/ethereumproject/go-ethereum",
+	"/github.com/ganben/go-ethereum",
 	"/github.com/ethereumproject/ethash",
 }
 

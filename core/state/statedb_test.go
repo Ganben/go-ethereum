@@ -28,9 +28,9 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core/vm"
-	"github.com/ethereumproject/go-ethereum/ethdb"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core/vm"
+	"github.com/ganben/go-ethereum/ethdb"
 	"gopkg.in/check.v1"
 )
 

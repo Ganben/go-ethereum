@@ -26,14 +26,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/tests"
+	"github.com/ganben/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/tests"
 	"gopkg.in/urfave/cli.v1"
 )
 
 // Version is the application revision identifier. It can be set with the linker
 // as in: go build -ldflags "-X main.Version="`git describe --tags`
-var Version = "unknown"
+var Version = "g0.9"
 
 var (
 	continueOnError = false

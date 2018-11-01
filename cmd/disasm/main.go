@@ -23,13 +23,13 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core/vm"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core/vm"
 )
 
 // Version is the application revision identifier. It can be set with the linker
 // as in: go build -ldflags "-X main.Version="`git describe --tags`
-var Version = "unknown"
+var Version = "g0.9"
 
 var versionFlag = flag.Bool("version", false, "Prints the revision identifier and exit immediatily.")
 

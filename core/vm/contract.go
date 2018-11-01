@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereumproject/go-ethereum/common"
+	"github.com/ganben/go-ethereum/common"
 )
 
 // ContractRef is a reference to the contract's backing object

@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/ethereumproject/ethash"
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/logger"
+	"github.com/ganben/go-ethereum/logger/glog"
 )
 
 type hashrate struct {

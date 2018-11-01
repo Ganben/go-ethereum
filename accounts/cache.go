@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/logger"
+	"github.com/ganben/go-ethereum/logger/glog"
 )
 
 // addrCache is a live index of all accounts in the keystore.

@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/event"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/p2p/discover"
-	"github.com/ethereumproject/go-ethereum/p2p/nat"
+	"github.com/ganben/go-ethereum/event"
+	"github.com/ganben/go-ethereum/logger"
+	"github.com/ganben/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/p2p/discover"
+	"github.com/ganben/go-ethereum/p2p/nat"
 )
 
 const (

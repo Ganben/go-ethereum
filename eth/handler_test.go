@@ -22,14 +22,14 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/core/state"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/crypto"
-	"github.com/ethereumproject/go-ethereum/eth/downloader"
-	"github.com/ethereumproject/go-ethereum/ethdb"
-	"github.com/ethereumproject/go-ethereum/p2p"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core"
+	"github.com/ganben/go-ethereum/core/state"
+	"github.com/ganben/go-ethereum/core/types"
+	"github.com/ganben/go-ethereum/crypto"
+	"github.com/ganben/go-ethereum/eth/downloader"
+	"github.com/ganben/go-ethereum/ethdb"
+	"github.com/ganben/go-ethereum/p2p"
 )
 
 // Tests that protocol versions and modes of operations are matched up properly.

@@ -24,13 +24,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereumproject/go-ethereum/accounts/abi/bind"
-	"github.com/ethereumproject/go-ethereum/common/compiler"
+	"github.com/ganben/go-ethereum/accounts/abi/bind"
+	"github.com/ganben/go-ethereum/common/compiler"
 )
 
 // Version is the application revision identifier. It can be set with the linker
 // as in: go build -ldflags "-X main.Version="`git describe --tags`
-var Version = "unknown"
+var Version = "g0.9"
 
 var (
 	abiFlag = flag.String("abi", "", "Path to the Ethereum contract ABI json to bind")

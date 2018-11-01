@@ -26,12 +26,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereumproject/go-ethereum/rlp"
+	"github.com/ganben/go-ethereum/rlp"
 )
 
 // Version is the application revision identifier. It can be set with the linker
 // as in: go build -ldflags "-X main.Version="`git describe --tags`
-var Version = "unknown"
+var Version = "g0.9"
 
 var (
 	hexMode     = flag.String("hex", "", "dump given hex data")

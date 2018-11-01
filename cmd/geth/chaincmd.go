@@ -26,11 +26,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/core/state"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core"
+	"github.com/ganben/go-ethereum/core/state"
+	"github.com/ganben/go-ethereum/core/types"
+	"github.com/ganben/go-ethereum/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 

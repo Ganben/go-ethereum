@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ethereumproject/go-ethereum/core/assets"
+	"github.com/ganben/go-ethereum/core/assets"
 )
 
 func assetsOpen(path string) (io.ReadCloser, error) {

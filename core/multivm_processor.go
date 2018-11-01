@@ -6,13 +6,13 @@ import (
 	"math/big"
 
 	"github.com/ETCDEVTeam/sputnikvm-ffi/go/sputnikvm"
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core/state"
-	"github.com/ethereumproject/go-ethereum/core/types"
-	evm "github.com/ethereumproject/go-ethereum/core/vm"
-	"github.com/ethereumproject/go-ethereum/crypto"
-	"github.com/ethereumproject/go-ethereum/logger"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core/state"
+	"github.com/ganben/go-ethereum/core/types"
+	evm "github.com/ganben/go-ethereum/core/vm"
+	"github.com/ganben/go-ethereum/crypto"
+	"github.com/ganben/go-ethereum/logger"
+	"github.com/ganben/go-ethereum/logger/glog"
 )
 
 const SputnikVMExists = true

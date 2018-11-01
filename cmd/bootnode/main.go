@@ -24,15 +24,15 @@ import (
 	"log"
 	"os"
 
-	"github.com/ethereumproject/go-ethereum/crypto"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/p2p/discover"
-	"github.com/ethereumproject/go-ethereum/p2p/nat"
+	"github.com/ganben/go-ethereum/crypto"
+	"github.com/ganben/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/p2p/discover"
+	"github.com/ganben/go-ethereum/p2p/nat"
 )
 
 // Version is the application revision identifier. It can be set with the linker
 // as in: go build -ldflags "-X main.Version="`git describe --tags`
-var Version = "unknown"
+var Version = "g0.9"
 
 var (
 	listenAddr  = flag.String("addr", ":30301", "listen address")

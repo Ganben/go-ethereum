@@ -8,11 +8,11 @@ import (
 
 	"path/filepath"
 
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/eth"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
-	"github.com/ethereumproject/go-ethereum/rpc"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core"
+	"github.com/ganben/go-ethereum/eth"
+	"github.com/ganben/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

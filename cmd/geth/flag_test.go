@@ -11,10 +11,10 @@ import (
 
 	"os/exec"
 
-	"github.com/ethereumproject/go-ethereum/accounts"
-	"github.com/ethereumproject/go-ethereum/common"
-	"github.com/ethereumproject/go-ethereum/core"
-	"github.com/ethereumproject/go-ethereum/logger/glog"
+	"github.com/ganben/go-ethereum/accounts"
+	"github.com/ganben/go-ethereum/common"
+	"github.com/ganben/go-ethereum/core"
+	"github.com/ganben/go-ethereum/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 
